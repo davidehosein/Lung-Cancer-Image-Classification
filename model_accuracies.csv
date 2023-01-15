@@ -1,5 +1,5 @@
 Model,Accuracy Score,F1 Score,Jaccard Score,Best Hyperparameters
 K-Nearest Neighbors (KNN),0.8409090909090909,0.834041958041958,0.7182440846824408,"{'algorithm': 'auto', 'n_neighbors': 1, 'p': 2}"
 Logistic Regression,0.9409090909090909,0.9413638672145528,0.8955651030004478,"{'C': 0.1, 'max_iter': 10000, 'penalty': 'l2', 'solver': 'lbfgs'}"
-Random Forest,0.85,0.8240818865716898,0.7335976039464412,"{'bootstrap': False, 'max_depth': 4, 'max_features': 'auto', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}"
+Random Forest,0.8409090909090909,0.8153152113906215,0.7198068903573492,"{'bootstrap': False, 'max_depth': 4, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}"
 Gaussian Naive-Bayes,0.6045454545454545,0.5598610990285632,0.43413720425915553,{'var_smoothing': 0.1873817422860384}
